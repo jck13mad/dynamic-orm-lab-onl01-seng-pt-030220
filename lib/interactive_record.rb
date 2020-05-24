@@ -34,7 +34,7 @@ class InteractiveRecord
     
     DB[:conn].execute(sql)
     
-    
+    @id = 
   
   
   
