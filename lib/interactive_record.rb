@@ -59,7 +59,8 @@ class InteractiveRecord
     sql = <<-SQL
       SELECT * FROM #{table_name}
       WHERE name = ?
-      
+    SQL
+    
   
   
   
