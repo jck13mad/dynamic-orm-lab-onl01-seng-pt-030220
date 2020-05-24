@@ -8,6 +8,7 @@ class InteractiveRecord
   end
   
   def self.column_names
+    DB[:conn]
   
   
   
