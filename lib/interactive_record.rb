@@ -70,7 +70,7 @@ class InteractiveRecord
     
     sql = <<-SQL
       SELECT * FROM #{table_name}
-      WHERE #{column_names}
+      WHERE #{column_name}
   
   
   
