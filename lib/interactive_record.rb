@@ -21,7 +21,8 @@ class InteractiveRecord
   end
   
   def initialize(objects={})
-    objects.each do |
+    objects.each do |k, v|
+      
   
   
   
