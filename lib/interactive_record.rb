@@ -66,7 +66,7 @@ class InteractiveRecord
   
   def self.find_by(attribute)
     column_names = attribute.keys[0].to_s
-    value_name = 
+    value_name = attribute.keys[1]
   
   
   
