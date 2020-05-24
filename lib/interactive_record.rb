@@ -28,7 +28,7 @@ class InteractiveRecord
   
   def save
     sql = <<-SQL
-      
+      INSET INTO 
   
   
   
