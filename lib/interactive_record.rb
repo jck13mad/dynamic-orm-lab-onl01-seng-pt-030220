@@ -69,7 +69,7 @@ class InteractiveRecord
     value_name = attribute.values[0]
     
     sql = <<-SQL
-      
+      SELECT * FROM 
   
   
   
