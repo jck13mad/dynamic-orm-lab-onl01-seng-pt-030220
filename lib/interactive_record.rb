@@ -28,7 +28,7 @@ class InteractiveRecord
   
   def save
     sql = <<-SQL
-      INSET INTO #{table_name_for_insert}(#{col_names_for_insert})
+      INSET INTO #{table_name_for_insert}(#{col_names_for_insert}")
   
   
   
