@@ -52,7 +52,10 @@ class InteractiveRecord
       values << "'#{send(c_name)}'" unless send(c_name).nil?
     end
     
-    
+    values.join(", ")
+  end
+  
+  
   
   
   
