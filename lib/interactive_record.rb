@@ -32,7 +32,9 @@ class InteractiveRecord
       VALUES (#{values_for_insert})
     SQL
     
-    DB[:conn]
+    DB[:conn].execute(sql)
+    
+    
   
   
   
